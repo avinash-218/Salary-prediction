@@ -36,3 +36,7 @@ plt.title('Salary Vs Experience (Test Set)')
 plt.xlabel('Experience')
 plt.ylabel('Salary')
 plt.show()
+
+#print regressiong equation
+print("Regressiong equation is:")
+print("Salary = {} + {}*Years_of_Experience".format(linear_regression.intercept_,linear_regression.coef_))
